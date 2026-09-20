@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Node & Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Models & Data Artifacts
+*.onnx
+*.pt
+*.pkl
+*.faiss
+
+# Block data files in ai/data/ except directory structure and .gitkeep files
+ai/data/**/*
+!ai/data/**/
+!ai/data/**/.gitkeep
+
+# System & Editor
+.DS_Store
+.idea/
+.vscode/
